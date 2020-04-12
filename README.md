@@ -23,13 +23,13 @@
 ### [PUT] /repositories/{id}
 - Edita um repositório
 - Body:
-```
-{
-"title": string
-"url": string,
-"techs": string[]
-}
-```
+  ```
+  {
+    "title": string
+    "url": string,
+    "techs": string[]
+  }
+  ```
 
 ### [DELETE] /repositories/{id}
 - Deleta um repositório
